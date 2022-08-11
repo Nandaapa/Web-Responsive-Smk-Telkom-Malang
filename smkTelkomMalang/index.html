@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Telkom Malang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">
+            <img src="img/logo_telkommlg.png" style="width:200px;">
+        </h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#profil" class="profile">Profil</a></li>
+            <li><a href="datasiswa.html" class="datasiswa">Data Siswa</a></li>
+            <li class="ctn"><a href="ppdb.html" class="ppdb">PPDB</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+        <h2>SMK Telkom Malang</h2>
+        <div class="line"></div>
+        <h1>The Real Informatics School</h1>
+        <a href="ppdb.html" class="ctn">Join Us</a>
+    </div>
+    </header>
+    <section>
+        <div class="title">
+            <h1>Program Keahlian</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1-Rpll.png" alt="">
+                <h4>Rekayasa Perangkat Lunak</h4>
+                <p>Mempelajari seluruh aspek produksi software
+                    seperti aplikasi web dan aplikasi mobile.
+                    Siswa nantinya akan belajar dan dituntut untuk bisa membuat aplikasi berbasis web dengan teknologi pemrograman sesuai standar industri. Back-end menggunakan Node JS/Laravel, dan Front-end menggunakan React JS/Vue JS.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2-tkjj.png" alt="">
+                <h4>Teknik Komputer Jaringan</h4>
+                <p>Mempelajari cara merakit, instalasi, dan perbaikan komputer,
+                    instalasi jaringan Local Area Network (LAN) dan Wide Area Network (WAN), serta internet of things (IoT).
+                    Siswa nantinya akan belajar dan dituntut untuk bisa membangun jaringan berskala kecil hingga besar dengan peralatan jaringan seperti cisco, mikrotik, access-point, switch, dll.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore" id="profil">
+        <div class="explore-content">
+            <h1>Profil Sekolah</h1>
+            <div class="line"></div>
+        <p>SMK Telkom Malang adalah pelopor Sekolah menengah kejuruan pertama di Indonesia di bidang Teknologi dan Informatika. Berpengalaman dari tahun 1992 yang telah terakreditasi "A" dan mempunyai standart mutu ISO 9001:2015. SMK Telkom Malang juga merupakan sekolah adiwiyata yang menerapkan prinsip sekolah hijau, hal tersebut semakin memberikan suasana yang nyaman bagi warga sekolah.
+  
+            Manajemen SMK Telkom malang berkomitmen untuk memberikan pelayanan jasa pendidikan yang bermutu tinggi dengan menggunakan Sistem Manajemen Mutu ISO 9001:2015 SMK dengan melibatkan seluruh komponen sekolah yang ada dengan mengembangkan kepribadian yang memiliki jiwa MOKLET.
+            M : Mulia
+            Membangun karakter generasi yang beriman, bertaqwa, dan berakhlak mulia
+            O: Obyektif
+            Mewujudkan insan yang mampu berpikir ilmiah, jujur, dan kompetitif
+            K : Kreatif
+            Menciptakan pembelajaran inovatif berbasis teknologi yang mendorong siswa memiliki kompetensi abad 21
+            L : Loyalitas
+            Menumbuhkan semangat mengabdi dan rasa memiliki sehingga dapat meningkatkan etos kerja
+            E : Empati
+            Mewujudkan budaya sekolah yang saling menghargai dan peduli sehingga menciptakan suasana nyaman di lingkungan sekolah
+            T : Terampil
+            Menghasilkan lulusan yang cakap di bidang Teknologi Informasi dan Komunikasi serta unggul dalam menghadapi persaingan global
+            </p>
+        </div>
+    </section>
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>Sekolah Berprestasi</h1>
+            <p>Halo Mokleters, berikut ini beberapa rangkuman prestasi yang diraih oleh Siswa-Siswi SMK Telkom Malang . Prestasi di samping ini hanya beberapa ya, masih banyak prestasi - prestasi lainnya baik di bidang akademin maupun non akademis yang berhasil diperoleh siswa Moklet baik di tingkat regional, nasional, maupun internasional.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./img/prestasi1.png" alt="">
+                <img src="./img/prestasi2.png" alt="">
+                <img src="./img/prestasi3.png" alt="">
+                <img src="./img/prestasi4.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <p>SMK Telkom Malang</p>
+    <p>by Daffa Nanda Prasetya</p>
+</section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
